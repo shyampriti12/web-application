@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 80px;
+}
+
+.logo {
+  color: #4f6cff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #777;
+  font-size: 15px;
+}
+
+nav a.active {
+  color: #4f6cff;
+  border-bottom: 2px solid #4f6cff;
+  padding-bottom: 4px;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  height: calc(100vh - 90px);
+}
+
+/* Left */
+.left {
+  flex: 1;
+  padding: 80px;
+}
+
+.left h1 {
+  font-size: 34px;
+  color: #3f51ff;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+/* Form */
+.login-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #4f6cff;
+}
+
+/* Options */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #4f6cff;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.primary {
+  background: #4f6cff;
+  color: white;
+  border: none;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #4f6cff;
+  color: #4f6cff;
+}
+
+/* Social */
+.social {
+  font-size: 14px;
+  color: #888;
+}
+
+.social a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #4f6cff;
+}
+
+/* Right */
+.right {
+  flex: 1;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 75%;
+  max-width: 420px;
+}
+
+
+
